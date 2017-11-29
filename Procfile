@@ -1,1 +1,1 @@
-web: java -cp target/rate-review-1.0-jar-with-dependencies.jar edu.ben.rate_review.app.Application
+web: java -cp target/markotic-1.0-jar-with-dependencies.jar edu.ben.markotic.Application
