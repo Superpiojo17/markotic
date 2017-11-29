@@ -720,7 +720,7 @@ ul {
 
 /* Preload images */
 body:after {
-  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  content: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24174166_1865400797107055_9118433446985668676_n.png?oh=da28d3fc380e7c42f7ce01c57b3cef44&oe=5A990DBA) url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23915575_1865400827107052_2224681286147465629_n.png?oh=19e4fa1da1a9cb94226fa97970c5a337&oe=5A9F31BA) url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24067862_1865400823773719_6735169100538025063_n.png?oh=19f4ed12e261575316b8f36d9cc3fe5c&oe=5A990EDE);
   display: none;
 }
 
@@ -798,7 +798,6 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -829,7 +828,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../img/prev.png) left 48% no-repeat;
+  background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23915575_1865400827107052_2224681286147465629_n.png?oh=19e4fa1da1a9cb94226fa97970c5a337&oe=5A9F31BA) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -847,7 +846,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../img/next.png) right 48% no-repeat;
+  background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24067862_1865400823773719_6735169100538025063_n.png?oh=19f4ed12e261575316b8f36d9cc3fe5c&oe=5A990EDE) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -915,7 +914,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../img/close.png) top right no-repeat;
+  background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24174166_1865400797107055_9118433446985668676_n.png?oh=da28d3fc380e7c42f7ce01c57b3cef44&oe=5A990DBA) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
