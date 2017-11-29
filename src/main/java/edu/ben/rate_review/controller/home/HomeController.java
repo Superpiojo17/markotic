@@ -1,4 +1,4 @@
-package edu.ben.markotic.controller.home;
+package edu.ben.rate_review.controller.home;
 
 import java.util.HashMap;
 

@@ -1,13 +1,8 @@
-package edu.ben.markotic.app;
+package edu.ben.rate_review.app;
 
 import static spark.Spark.*;
 
-/**
- * This application class runs our entire project and is also where we configure the paths to get to all our pages
- */
-
-
-import edu.ben.markotic.controller.home.*;
+import edu.ben.rate_review.controller.home.*;
 import spark.Session;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
