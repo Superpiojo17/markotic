@@ -69,6 +69,7 @@ public class Application {
 		// path for the home page
 		get(HOME_PATH, HomeController::showHomePage, new HandlebarsTemplateEngine());
 		get(NOTFOUND_HOME_PATH, HomeController::showHomePage, new HandlebarsTemplateEngine());
+		post(HOME_PATH, HomeController::contact);
 
 		// path for homework
 
