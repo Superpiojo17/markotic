@@ -2,6 +2,7 @@ package edu.ben.rate_review.email;
 
 import com.sendgrid.*;
 import com.sendgrid.Email;
+import com.sendgrid.SendGrid;
 
 import java.util.HashMap;
 
@@ -33,7 +34,7 @@ public class SendGridManager {
     }
 
     public void send(HashMap<String, String> params) {
-        final Email from = new Email(FROM_EMAIL, "Markotic Sports");
+        final Email from = new Email(FROM_EMAIL, "Rate and Review");
         String subject;
         Email to;
         Content content;
