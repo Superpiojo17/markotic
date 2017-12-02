@@ -663,7 +663,7 @@ ul {
     padding: 30px;
     margin-top: -30px;
     margin-left: 15px;
-    margin-right: 25px;
+    margin-right: 0px;
   }
   .projects-content {
     width: 100vh;
