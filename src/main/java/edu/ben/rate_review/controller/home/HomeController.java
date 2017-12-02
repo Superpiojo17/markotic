@@ -32,6 +32,7 @@ public class HomeController {
 		HashMap<String, String> params = new HashMap<>();
 		params.put("name", name);
 		params.put("subject", subject);
+		params.put("to", email);
 		params.put("message", finalMessage);
 		if (Application.ALLOW_EMAIL) {
 			SendGridManager.getInstance().send(params);
