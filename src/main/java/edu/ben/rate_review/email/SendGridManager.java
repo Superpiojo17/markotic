@@ -34,7 +34,7 @@ public class SendGridManager {
     }
 
     public void send(HashMap<String, String> params) {
-        final Email from = new Email(FROM_EMAIL, "Rate and Review");
+        final Email from = new Email(FROM_EMAIL, "Markotic Sports");
         String subject;
         Email to;
         Content content;
