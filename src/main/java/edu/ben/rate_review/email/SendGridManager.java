@@ -54,6 +54,9 @@ public class SendGridManager {
         if (params.containsKey("name") && params.get("name") != null) {
             to.setName(params.get("name"));
         }
+        if (params.containsKey("email") && params.get("email") != null) {
+            to.setName(params.get("email"));
+        }
 
         // Check for a valid message
         if (!params.containsKey("message") || params.get("message") == null) {
