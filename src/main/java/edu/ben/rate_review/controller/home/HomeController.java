@@ -19,7 +19,7 @@ public class HomeController {
 
 	public static ModelAndView contact(Request req, Response res) {
 		HashMap<String, Object> model = new HashMap<>();
-		
+
 		String name = req.queryParams("name");
 		String email = req.queryParams("email");
 		String message = req.queryParams("message");
@@ -37,6 +37,7 @@ public class HomeController {
 		if (Application.ALLOW_EMAIL) {
 			SendGridManager.getInstance().send(params);
 		}
+		res.redirect(Application.HOME_PATH);
 		return new ModelAndView(model, "home/home.hbs");
 
 	}
