@@ -66,16 +66,12 @@ public class SendGridManager {
         Mail mail = new Mail(from, subject, to, content);
         Request request;
         Response response;
-        System.out.println("Sending email - to:" + to.getEmail() + ", subject: " + subject + ", message:" + content.getValue());
         try {
             request = new Request();
             request.method = Method.POST;
             request.endpoint = "mail/send";
             request.body = mail.build();
             response = this.mailer.api(request);
-            System.out.println(response.statusCode);
-            System.out.println(response.body);
-            System.out.println(response.headers);
         } catch (Exception e) {
             e.printStackTrace();
         }

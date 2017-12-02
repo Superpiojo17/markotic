@@ -23,8 +23,8 @@ public class HomeController {
 		String name = req.queryParams("name");
 		String email = req.queryParams("email");
 		String message = req.queryParams("message");
-		String subject = "Markotic Sports from: " + name;
-		String header = "Sent from:\n " + email;
+		String subject = "New Notification From Markotic Sports";
+		String header = "Sent by:\n " + name + " from " + email;
 
 		String messageBody = "<p>" + message + "</p>";
 		String finalMessage = header + messageBody;
@@ -32,7 +32,6 @@ public class HomeController {
 		HashMap<String, String> params = new HashMap<>();
 		params.put("name", name);
 		params.put("subject", subject);
-		params.put("to", email);
 		params.put("message", finalMessage);
 		if (Application.ALLOW_EMAIL) {
 			SendGridManager.getInstance().send(params);
