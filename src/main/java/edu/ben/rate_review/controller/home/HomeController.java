@@ -33,7 +33,7 @@ public class HomeController {
 		params.put("name", name);
 		params.put("subject", subject);
 		params.put("email", email);
-		params.put("to", "superpiojo17@gmail.com");
+		params.put("to", "antemarkotic@yahoo.com");
 		params.put("message", finalMessage);
 		if (Application.ALLOW_EMAIL) {
 			SendGridManager.getInstance().send(params);
